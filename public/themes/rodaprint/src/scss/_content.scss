@@ -1,0 +1,22 @@
+// Content
+
+#pesoUnidad {
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+
+// Unset GC bt5 header footer decoration
+.gc_unset_header_footer {
+    [class^='gc-title-'],
+    [class^='gc-footer-'],
+    [class^='gc-datagrid-tools-'] {
+        display: none;
+    }
+}
+
+.gc_unset_header {
+    [class^='gc-title-'],
+    [class^='gc-datagrid-tools-'] {
+        display: none;
+    }
+}
